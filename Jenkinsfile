@@ -40,9 +40,9 @@ pipeline{
                 echo "Deploy the code to the production environment using the environment variable specifying the environment name ${env.PRODUCTION_ENVIRONMENT}"
             }   
         }
-        stage('Poll Feature Test'){
+        stage('Poll Feature Test 2'){
             steps{
-                echo "Yeyy, Poll is working"
+                echo "Yeyy, Poll is working again"
             }   
         }
     }
